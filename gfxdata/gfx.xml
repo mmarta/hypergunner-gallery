@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+    <input file="png/gfx.png" type="png" tile-width="8" tile-height="8" />
+    <output file="gfxdata/tiles.inc">
+        <tiles var-name="tiles" />
+        <maps pointers-size="8">
+            <map var-name="mapFighterSouthA" left="0" top="3" width="2" height="2" />
+            <map var-name="mapFighterSouthB" left="8" top="3" width="2" height="2" />
+            <map var-name="mapFighterSouthC" left="16" top="3" width="2" height="2" />
+            <map var-name="mapFighterWestA" left="2" top="3" width="2" height="2" />
+            <map var-name="mapFighterWestB" left="10" top="3" width="2" height="2" />
+            <map var-name="mapFighterWestC" left="18" top="3" width="2" height="2" />
+            <map var-name="mapFighterNorthA" left="4" top="3" width="2" height="2" />
+            <map var-name="mapFighterNorthB" left="12" top="3" width="2" height="2" />
+            <map var-name="mapFighterNorthC" left="20" top="3" width="2" height="2" />
+            <map var-name="mapFighterEastA" left="6" top="3" width="2" height="2" />
+            <map var-name="mapFighterEastB" left="14" top="3" width="2" height="2" />
+            <map var-name="mapFighterEastC" left="22" top="3" width="2" height="2" />
+
+            <map var-name="mapFighterKillA" left="24" top="3" width="2" height="2" />
+            <map var-name="mapFighterKillB" left="26" top="3" width="2" height="2" />
+            <map var-name="mapFighterKillC" left="28" top="3" width="2" height="2" />
+            <map var-name="mapFighterKillD" left="30" top="3" width="2" height="2" />
+
+            <map var-name="mapLaserHorizontalA" left="0" top="6" width="2" height="1" />
+            <map var-name="mapLaserHorizontalB" left="0" top="5" width="2" height="1" />
+            <map var-name="mapLaserHorizontalC" left="2" top="6" width="2" height="1" />
+            <map var-name="mapLaserHorizontalD" left="2" top="5" width="2" height="1" />
+            <map var-name="mapLaserHorizontalE" left="4" top="6" width="2" height="1" />
+            <map var-name="mapLaserHorizontalF" left="4" top="5" width="2" height="1" />
+            <map var-name="mapLaserHorizontalG" left="6" top="6" width="2" height="1" />
+            <map var-name="mapLaserHorizontalH" left="6" top="5" width="2" height="1" />
+
+            <map var-name="mapLaserVerticalA" left="8" top="5" width="1" height="2" />
+            <map var-name="mapLaserVerticalB" left="9" top="5" width="1" height="2" />
+            <map var-name="mapLaserVerticalC" left="10" top="5" width="1" height="2" />
+            <map var-name="mapLaserVerticalD" left="11" top="5" width="1" height="2" />
+            <map var-name="mapLaserVerticalE" left="12" top="5" width="1" height="2" />
+            <map var-name="mapLaserVerticalF" left="13" top="5" width="1" height="2" />
+            <map var-name="mapLaserVerticalG" left="14" top="5" width="1" height="2" />
+            <map var-name="mapLaserVerticalH" left="15" top="5" width="1" height="2" />
+
+            <map var-name="mapInvaderSouthA" left="16" top="5" width="2" height="2" />
+            <map var-name="mapInvaderWestA" left="18" top="5" width="2" height="2" />
+            <map var-name="mapInvaderNorthA" left="20" top="5" width="2" height="2" />
+            <map var-name="mapInvaderEastA" left="22" top="5" width="2" height="2" />
+            <map var-name="mapInvaderSouthB" left="24" top="5" width="2" height="2" />
+            <map var-name="mapInvaderWestB" left="26" top="5" width="2" height="2" />
+            <map var-name="mapInvaderNorthB" left="28" top="5" width="2" height="2" />
+            <map var-name="mapInvaderEastB" left="30" top="5" width="2" height="2" />
+
+            <map var-name="mapEnemyKillA" left="0" top="7" width="2" height="2" />
+            <map var-name="mapEnemyKillB" left="2" top="7" width="2" height="2" />
+            <map var-name="mapEnemyKillC" left="4" top="7" width="2" height="2" />
+            <map var-name="mapEnemyKillD" left="6" top="7" width="2" height="2" />
+
+            <map var-name="mapInvaderWarnSouth" left="8" top="7" width="2" height="2" />
+            <map var-name="mapInvaderWarnWest" left="10" top="7" width="2" height="2" />
+            <map var-name="mapInvaderWarnNorth" left="12" top="7" width="2" height="2" />
+            <map var-name="mapInvaderWarnEast" left="14" top="7" width="2" height="2" />
+
+            <map var-name="mapSweeperSouthA" left="16" top="7" width="2" height="2" />
+            <map var-name="mapSweeperWestA" left="18" top="7" width="2" height="2" />
+            <map var-name="mapSweeperNorthA" left="20" top="7" width="2" height="2" />
+            <map var-name="mapSweeperEastA" left="22" top="7" width="2" height="2" />
+            <map var-name="mapSweeperSouthB" left="24" top="7" width="2" height="2" />
+            <map var-name="mapSweeperWestB" left="26" top="7" width="2" height="2" />
+            <map var-name="mapSweeperNorthB" left="28" top="7" width="2" height="2" />
+            <map var-name="mapSweeperEastB" left="30" top="7" width="2" height="2" />
+
+            <map var-name="mapSparxSouthA" left="0" top="9" width="2" height="2" />
+            <map var-name="mapSparxWestA" left="2" top="9" width="2" height="2" />
+            <map var-name="mapSparxNorthA" left="4" top="9" width="2" height="2" />
+            <map var-name="mapSparxEastA" left="6" top="9" width="2" height="2" />
+            <map var-name="mapSparxSouthB" left="8" top="9" width="2" height="2" />
+            <map var-name="mapSparxWestB" left="10" top="9" width="2" height="2" />
+            <map var-name="mapSparxNorthB" left="12" top="9" width="2" height="2" />
+            <map var-name="mapSparxEastB" left="14" top="9" width="2" height="2" />
+            <map var-name="mapSparxSouthC" left="16" top="9" width="2" height="2" />
+            <map var-name="mapSparxWestC" left="18" top="9" width="2" height="2" />
+            <map var-name="mapSparxNorthC" left="20" top="9" width="2" height="2" />
+            <map var-name="mapSparxEastC" left="22" top="9" width="2" height="2" />
+
+            <map var-name="mapLaserBackfeedHorizontalA" left="24" top="10" width="2" height="1" />
+            <map var-name="mapLaserBackfeedHorizontalB" left="24" top="9" width="2" height="1" />
+            <map var-name="mapLaserBackfeedHorizontalC" left="26" top="10" width="2" height="1" />
+            <map var-name="mapLaserBackfeedHorizontalD" left="26" top="9" width="2" height="1" />
+            <map var-name="mapLaserBackfeedHorizontalE" left="28" top="10" width="2" height="1" />
+            <map var-name="mapLaserBackfeedHorizontalF" left="28" top="9" width="2" height="1" />
+            <map var-name="mapLaserBackfeedHorizontalG" left="30" top="10" width="2" height="1" />
+            <map var-name="mapLaserBackfeedHorizontalH" left="30" top="9" width="2" height="1" />
+
+            <map var-name="mapLaserBackfeedVerticalA" left="0" top="11" width="1" height="2" />
+            <map var-name="mapLaserBackfeedVerticalB" left="1" top="11" width="1" height="2" />
+            <map var-name="mapLaserBackfeedVerticalC" left="2" top="11" width="1" height="2" />
+            <map var-name="mapLaserBackfeedVerticalD" left="3" top="11" width="1" height="2" />
+            <map var-name="mapLaserBackfeedVerticalE" left="4" top="11" width="1" height="2" />
+            <map var-name="mapLaserBackfeedVerticalF" left="5" top="11" width="1" height="2" />
+            <map var-name="mapLaserBackfeedVerticalG" left="6" top="11" width="1" height="2" />
+            <map var-name="mapLaserBackfeedVerticalH" left="7" top="11" width="1" height="2" />
+
+            <map var-name="mapEnemyNucleusLarge" left="8" top="11" width="2" height="2" />
+            <map var-name="mapEnemyNucleusSmall" left="10" top="11" width="2" height="2" />
+            <map var-name="mapEnemyAsteroid" left="12" top="11" width="2" height="2" />
+
+            <map var-name="mapHookNE" left="0" top="13" width="1" height="1" />
+            <map var-name="mapHookSE" left="1" top="13" width="1" height="1" />
+            <map var-name="mapHookSW" left="2" top="13" width="1" height="1" />
+            <map var-name="mapHookNW" left="3" top="13" width="1" height="1" />
+            <map var-name="mapWireA" left="4" top="13" width="1" height="1" />
+            <map var-name="mapWireB" left="5" top="13" width="1" height="1" />
+
+            <map var-name="mapBGCrossA" left="6" top="13" width="1" height="1" />
+            <map var-name="mapBGCrossB" left="7" top="13" width="1" height="1" />
+        </maps>
+    </output>
+</gfx-xform>
